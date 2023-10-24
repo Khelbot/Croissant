@@ -1,0 +1,37 @@
+:root {
+  --main-color: #e9dbbe;
+  --accent-color: #126fa5;
+}
+
+body {
+  margin-top: 70px;
+  margin: 40px;
+  background-color: var(--main-color);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 500;
+}
+a {
+  color: var(--accent-color);
+  padding-left: 20px;
+  display: block;
+}
+
+a:hover {
+  color: white;
+}
+
+img {
+  margin: 50px;
+}
